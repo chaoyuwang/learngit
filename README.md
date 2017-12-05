@@ -13,9 +13,9 @@ $ git config --global user.email "email@example.com"
 
 2. 添加文件到Git仓库，分两步：
 
-  * 第一步，使用命令git add <file>，注意，可反复多次使用，添加多个文件；
+  * 第一步，使用命令`git add <file>`，注意，可反复多次使用，添加多个文件；
 
-  * 第二步，使用命令git commit，完成。
+  * 第二步，使用命令`git commit -m "<description>"`，完成。
 
 
 ## 版本回退
