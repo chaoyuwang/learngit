@@ -57,7 +57,7 @@ Git的版本库里存了很多东西，其中最重要的就是称为`stage`（�
  1. 登陆GitHub，打开“Account settings”，“SSH Keys”页面, 然后，点“Add SSH Key”，填上任意Title，在Key文本框里粘贴id_rsa.pub文件的内容.
 
 ## 添加远程库  
-  * 要关联一个远程库，使用命令`git remote add origin git@server-name:path/repo-name.git`
+  * 要关联一个远程库，使用命令`git remote add origin git@github.com:yourGitHubName/yourProjectName.git` 或者 `git@server-name:path/projectname.git`
 
   * 关联后，使用命令`git push -u origin master`第一次推送master分支的所有内容；
 
